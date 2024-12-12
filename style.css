@@ -1,0 +1,96 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 100vh;
+}
+
+/* Blocs individuels */
+.block {
+    max-width: 500px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+/* En-tête principale */
+header h1 {
+    font-size: 2rem;
+    color: #333;
+}
+
+/* Photo de profil */
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid #6200ea;
+    margin-bottom: 20px;
+}
+
+/* Description */
+.description p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+}
+
+.button {
+    display: inline-block;
+    background-color: #6200ea;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #3700b3;
+}
+
+/* Sections */
+h2 {
+    font-size: 1.5rem;
+    color: #6200ea;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+}
+
+/* Footer et liens sociaux */
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #6200ea;
+    font-size: 1.2rem;
+}
+
+footer a:hover {
+    color: #3700b3;
+}
